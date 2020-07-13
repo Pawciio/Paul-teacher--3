@@ -1,0 +1,62 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+    width: 900px;
+}
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+form h3{
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+    margin-left: 3em;
+}
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+form fieldset label{
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+form fieldset label input{
+    height: 25px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 7px;
+    padding: 5px;
+}
+form fieldset label span{
+    margin-left: 1em;
+    width: 200px;
+    font-size: 12px;
+    color: gray;
+    display: block;
+}
+form fieldset label select{
+    width: 238px;
+}
+form fieldset textarea{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.regulamin-box span{
+    width: 80%;
+}
+label button{
+    border: none;
+    font-size: 24px;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+label button:hover{
+    background-color: rgb(202, 201, 201);
+
+}

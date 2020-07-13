@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Formularz kontaktowy</h1>
+
+    <form action="#">
+        <fieldset>
+            <h3>Dane kontaktowe</h3>
+
+            <label for="">
+                <input required type="text" placeholder="Imie i Nazwisko"><span>* Proszę podać swoje prawidłowe imię i nazwisko</span>
+            </label>
+            <label for="">
+                <input required type="text" placeholder="E-mail"><span>* Proszę podać swój e-mail w celu odpowiedzi</span>
+            </label>
+            <label for="">
+                <input type="text" placeholder="Telefon"><span>Proszę podać swój nr. telefonu</span>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <h3>Treść wiadomośći</h3>
+            <label for="">
+                <input required type="text" placeholder="Temat"><span>* Proszę podać temat wiadomośći</span>
+            </label>
+            <label for="">
+                <select required>
+                    <option value="" disabled selected hidden>Kategorie</option>
+                    <option value="Nauka">Nauka</option>
+                    <option value="Programowanie">Programowanie</option>
+                    <option value="Lenistwo">Lenistwo</option>
+                    <option value="Gra w gre">Gra w gre</option>
+                </select>
+                <span>* Proszę wybrać kategorie problemu</span>
+            </label>
+            <textarea required name="opis" id="wiadomość" cols="80" rows="12" placeholder="Jako możemy Ci pomóc?"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="" class="regulamin-box">
+                <input required type="checkbox"><span>Treść regulaminu.. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse animi corrupti voluptatum sed, quo dignissimos consectetur magni eius ut obcaecati, magnam, aliquid maiores iusto itaque voluptatibus nisi numquam neque mollitia.</span>
+            </label>
+            <label for=""><button type="submit">Wyślij formularz</button></label>
+        </fieldset>
+    </form>
+
+</body>
+</html>
